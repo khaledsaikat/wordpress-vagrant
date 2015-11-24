@@ -3,6 +3,9 @@ curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.pha
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 
+# Install PHPUnit
+sudo apt-get install -y phpunit
+
 # Create wordpress directory
 sudo -u vagrant -i -- mkdir /home/vagrant/wordpress
 

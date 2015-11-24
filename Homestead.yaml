@@ -21,7 +21,6 @@ sites:
 
 databases:
     - wordpress
-    - homestead
 
 variables:
     - key: APP_ENV

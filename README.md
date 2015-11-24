@@ -48,6 +48,13 @@ Then go to your cloned directory and install composer dependencies by running fo
 composer install
 ```
 
+### Setting Your SSH Key
+You will need to have ssh keys for accessing virtual server. On Mac and Linux, you can create an SSH key pair using the following command:
+
+```
+ssh-keygen -t rsa -C "you@wordpress"
+```
+
 ### Run vagrant box
 
 To run vagrant box type:
@@ -76,6 +83,21 @@ To use custom domain, add following line to your hosts file:
 
 On Mac and Linux, this file is located at /etc/hosts. On Windows, it is located at C:\Windows\System32\drivers\etc\hosts.
 
-Now visit [http://wordpress.app](http://wordpress.app) to check your new blog.
+Now visit http://wordpress.app to check your new blog.
 
 You can find all WordPress files inside wordpress directory on your local machine. Now use your favorite editor to modify files. Any modification will immediately reflect on virtual machine.
+
+**Admin access of Wordpress:**
+- username: admin
+- password: secret
+
+**Database:**
+- dbname: wordpress
+- dbuser: homestead
+- dbpass: secret
+
+### Homestead.yaml
+
+Homestead.yaml comes with several configurations. You can map any local directory to virtual server and also configure custom domain.
+
+To get more info about homestead, visit [Laravel Homestead](http://laravel.com/docs/5.1/homestead)

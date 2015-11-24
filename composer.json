@@ -1,0 +1,15 @@
+{
+    "name": "khaled/wordpress-homestead",
+    "description": "Using homestead vagrant box for WordPress development",
+    "license": "gpl-3.0",
+    "authors": [
+        {
+            "name": "Khaled",
+            "email": ""
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "laravel/homestead": "^2.1"
+    }
+}

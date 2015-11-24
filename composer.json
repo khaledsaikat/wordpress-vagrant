@@ -1,5 +1,5 @@
 {
-    "name": "khaled/wordpress-homestead",
+    "name": "khaledsaikat/wordpress-vagrant",
     "description": "Using homestead vagrant box for WordPress development",
     "license": "gpl-3.0",
     "authors": [

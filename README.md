@@ -11,7 +11,7 @@ As homestead already contains everything that we need, here we are extending hom
 ### WordPress Vagrant Includes
 
 - Ubuntu 14.04
-- PHP 5.6 / 7.0
+- PHP 5.6
 - HHVM
 - Nginx
 - MySQL
@@ -23,7 +23,7 @@ As homestead already contains everything that we need, here we are extending hom
 - WP-CLI
 - PHPUnit
 - Composer
-- Running WordPress instance
+- Running WordPress Instance
 
 ## Requirements
 
@@ -85,13 +85,13 @@ On Mac and Linux, this file is located at /etc/hosts. On Windows, it is located 
 
 Now visit http://wordpress.app to check your new blog.
 
-You can find all WordPress files inside wordpress directory on your local machine. Now use your favorite editor to modify files. Any modification will immediately reflect on virtual machine.
+You can find all WordPress files inside `wordpress` directory on your local machine. Now use your favorite editor to modify files. Any modification will immediately reflect on virtual machine.
 
-**Admin access of Wordpress:**
+**Admin access of WordPress:**
 - username: admin
 - password: secret
 
-**Database:**
+**MySQL Database:**
 - dbname: wordpress
 - dbuser: homestead
 - dbpass: secret

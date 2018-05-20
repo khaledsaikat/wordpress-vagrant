@@ -10,26 +10,38 @@ As homestead already contains everything that we need, here we are extending hom
 
 ### WordPress Vagrant Includes
 
-- Ubuntu 14.04
+- Ubuntu 18.04
+- Git
+- PHP 7.2
+- PHP 7.1
+- PHP 7.0
 - PHP 5.6
-- HHVM
 - Nginx
+- Apache (Optional)
 - MySQL
-- Postgres
-- Node (With PM2, Bower, Grunt, and Gulp)
-- Redis
-- Memcached (PHP 5.x Only)
-- Beanstalkd
-- WP-CLI
-- PHPUnit
+- MariaDB (Optional)
+- Sqlite3
+- PostgreSQL
 - Composer
+- Node (With Yarn, Bower, Grunt, and Gulp)
+- Redis
+- Memcached
+- Beanstalkd
+- Mailhog
+- Elasticsearch (Optional)
+- ngrok
+- wp-cli
+- Zend Z-Ray
+- Go
+- Minio
+- PHPUnit
 - Running WordPress Instance
 
 ## Requirements
 
 - [Vagrant](http://www.vagrantup.com/downloads.html)
 - [VirtualBox 5.x](https://www.virtualbox.org/wiki/Downloads)
-- PHP 5.3.2+
+- PHP 5.6+
 - [Composer](https://getcomposer.org/doc/00-intro.md)
 
 ## Get started
